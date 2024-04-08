@@ -7,7 +7,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
 from fast_zero.app import app
-from models import Base
+from fast_zero.models import Base
 
 # Agora, em vez de repetir a criação do client em cada teste, podemos simplesmente passar a fixture
 # como um argumento nos nossos testes:
